@@ -15,8 +15,8 @@ h1 {
 nav, footer {
 	clear: both;
 	color: #ffffff;
-	background-color: #aeaca8;
-	height: 30px;}
+	background-color: #0009;
+	height: 135px;}
 section.courses {
 	float: left;
 	width: 659px;
@@ -40,14 +40,18 @@ figcaption {
 aside {
 	width: 230px;
 	float: left;
-	padding: 0px 0px 0px 20px;}
+	color:#f2bb85;
+	padding: 0px 0px 0px 20px;
+	background-color:#0009;}
 aside section a {
 	display: block;
 	padding: 10px;
-	border-bottom: 1px solid #eeeeee;}
+	color: white;
+	border-bottom: 1px solid #eeeeee;
+	}
 aside section a:hover {
-	color: #985d6a;
-	background-color: #efefef;}
+	color: #f2bb85;
+	background-color: none;}
 a {
 	color: #de6581;
 	text-decoration: none;}
