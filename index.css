@@ -1,4 +1,8 @@
-  .kepala{
+* {
+  margin: 0;
+  padding: 0;
+}
+.kepala{
   width: 100%;
   background-color: #0009;
   position: absolute;
@@ -18,8 +22,8 @@
   width: 100%;
   background-color: none ;
   position: relative;
-  margin-top: 200px;
-  height: 1000px;
+  padding-top: 200px;
+  display: block;
 }
 .utama p{
   text-align: center;
@@ -30,10 +34,7 @@
 
 .kaki{
   width: 100%;
-  margin-bottom: -20%;
   background-color: #0009;
-  position: absolute;
-  bottom:0;
   height: 140px;
 }
 
@@ -43,6 +44,7 @@
   font-size: 50px;
   position: absolute;
   left: 50px;
+  padding-top: 50px;
 }
 .Judul a{
   color:white;
@@ -54,6 +56,7 @@
   position: absolute;
   right: 80px;
   top: 40px;
+  z-index: 99;
 }
 .menu1 a{
   margin-right: 25px;
@@ -62,20 +65,58 @@
 }
 
 .all{
-  position: absolute;         
-  left: 0;
-  bottom: 0;
-  right: 0;
-  top:0;
+  display: block;
   width: 100%;
-  height: 950px;
+  min-height: 600px;
+  background: url('12.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.all img{
-  opacity: 1;
+
+
+.logo2{
+  background-color: none;
+  margin-top: 23px;
+  font-size: 50px;
+  position: absolute;
+  left: 40px;
+  color: white;
+}
+
+.cara-kerja {
+  display: flex;
   width: 100%;
-  height: 100%;
-  position: fixed;
+  padding: 50px 0;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 200px;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: white;
+
 }
+
+.cara-kerja-content {
+  flex-basis: 240px;
+  height: 200px
+  padding: 30px;
+  color: black;
+}
+
+.cara-kerja-content img{
+  width: 70%;
+}
+
+
+footer {
+  background-color: black;
+  padding: 20px 0;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+
 .kontak{
   width: 100%;
   height:40px;
@@ -97,9 +138,19 @@
 }
 .logo2{
   background-color: none;
-  margin-top: 23px;
+  margin-top: 15px;
   font-size: 50px;
   position: absolute;
   left: 40px;
   color: white;
 }
+.kaki{
+  width: 100%;
+  background-color: #0009;
+  position: absolute;
+  bottom: 15;
+  height: 125px;
+}
+
+
+
