@@ -82,7 +82,31 @@
   left: 40px;
   color: white;
 }
-
+.mulai-belajar{
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: white;
+  
+}
+.mulai-belajar-content {
+  flex-basis: 240px;
+  height: 200px;
+  padding: 30px;
+  color:black;
+  text-decoration:none;
+}
+.mulai-belajar-content a{
+  text-decoration: none;
+}
+.mulai-belajar-content img {
+  width: 70%;
+  
+}
 .cara-kerja {
   display: flex;
   width: 100%;
@@ -93,7 +117,6 @@
   flex-wrap: wrap;
   text-align: center;
   background-color: white;
-
 }
 
 .cara-kerja-content {
@@ -101,6 +124,7 @@
   height: 200px
   padding: 30px;
   color: black;
+  font-size:25px;
 }
 
 .cara-kerja-content img{
