@@ -68,6 +68,8 @@
   width: 100%;
   height: 100px;
   color:white;
+  background-repeat: repeat;
+  background :url(12.jpg) ;
 }
 
 .kontak{
