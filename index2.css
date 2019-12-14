@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-  
+
 body{
   background: url("12.jpg");
   background-size: 100%;
@@ -31,7 +31,6 @@ body{
   position: relative;
   padding-top: 100px;
   display: block;
-  text-decoration: none;
 }
 .utama p{
   margin-top: 10%;
@@ -40,7 +39,6 @@ body{
   width:100%;
   color:white;
 }
-
 
 .kaki{
   width: 100%;
@@ -230,7 +228,7 @@ input[type=text] {
 /*input[type=text]:focus {
   width: 100%;*/
 .tombol_login {
-  background: #46de4b;
+  background: #d6291a;
   color: white;
   font-size: 15pt;
   width: 100%;

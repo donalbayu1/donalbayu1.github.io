@@ -1,4 +1,4 @@
-.kepala{
+a.kepala{
   width: 100%;
   background-color: #0009;
   position: absolute;
@@ -128,7 +128,7 @@ body {
   width: 940px;
   margin: 20px auto 20px auto;
   border: 2px solid #000000;
-  background-color: #ffffff;}
+  background-color: #ffffff;
 }
 header {
   height: 160px;

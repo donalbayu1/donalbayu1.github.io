@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.kepala{
+  width: 100%;
+  background-color: #0009;
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  height:100px;
+  box-shadow: 0px 1px 10px #888888;
+  background: url(12.jpg);
+  color: #0009;
+}
+.kepala a:hover{
+  color: #f2bb85;
+  margin-right: 30px;
+}
+
+.utama{
+  width: 100%;
+  background-color: none ;
+  position: relative;
+  padding-top: 200px;
+  display: block;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.utama p{
+  text-align: center;
+  font-size: 50px;
+  width:100%;
+  color:white;
+   bottom-border:6px solid;
+}
+
+.kaki{
+  width: 100%;
+  background-color: #0009;
+  height: 140px;
+}
+
+.Judul{
+  background-color: none;
+  margin-top: -30px;
+  font-size: 50px;
+  position: absolute;
+  left: 50px;
+  padding-top: 50px;
+}
+.Judul a{
+  color:white;
+  text-decoration: none;
+}
+.menu1{
+  background-color: none;
+  font-size: 20px;
+  position: absolute;
+  right: 80px;
+  top: 40px;
+  z-index: 99;
+}
+.menu1 a{
+  margin-right: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.all{
+  display: block;
+  width: 100%;
+  min-height: 600px;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.logo2{
+  background-color: none;
+  margin-top: 23px;
+  font-size: 50px;
+  position: absolute;
+  left: 40px;
+  color: white;
+}
+
+.cara-kerja {
+  display: flex;
+  width: 100%;
+  padding: 50px 0;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 200px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.cara-kerja-content {
+  flex-basis: 240px;
+  height: 300px
+  padding: 30px;
+  color: white;
+}
+
+.cara-kerja-content img{
+  width: 70%;
+}
+
+
+footer {
+  background-color: black;
+  padding: 20px 0;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+
+.kiri{
+  width: 100%;
+  background-color: none ;
+  position: relative;
+  margin-top: 10px;
+  height: 200px;  
+}
+
+.kiri p{
+  margin-left: 100px;
+  font-size: 25px;
+  width:80%;
+  color:black;
+}
+.kaki{
+  width: 100%;
+  background-color: #0009;
+  position: absolute;
+  bottom: 15;
+  height: 125px;
+  margin-top: 5em;
+}
+.kontak{
+  width: 100%;
+  height:40px;
+  position: absolute;
+  bottom: 0;
+  background-color: #3c4245;
+}
+.kontak1{
+  position: relative;
+  color: white;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.info{
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  color:white;
+}
+.logo2{
+  background-color: none;
+  margin-top: 12px;
+  font-size: 50px;
+  position: absolute;
+  left: 40px;
+  color: white;
+}
+h1{
+  text-align: center;
+  font-weight: 300;
+}
+ 
+.kotak_pesan{
+  width: 550px;
+  background: white;
+  bottom:90px ;
+  top:100px; auto;
+  padding: 30px 90px;
+}
+ 
+label{
+  font-size: 25pt;
+}
+ 
+.form_pesan{
+  box-sizing : border-box;
+  width: 100%;
+  padding: 15px 15px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+
+.tombol_pesan{
+  background: #46de4b;
+  color: white;
+  font-size: 11pt;
+  width: 50%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+ 
+.link{
+  color: #232323;
+  text-decoration: none;
+  font-size: 10pt;
+}
+.col-75 {
+  float: left;
+  width: 65%;
+  margin-top: 6px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.tombol_login{
+  background: #46de4b;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 11em;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tombol_login {
+  background: #d6291a;
+  color: white;
+  font-size: 15pt;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+  text-decoration: none;
+}
+
+.tombol_login:hover{
+  background: #25BB42;
+}
+
+
+
