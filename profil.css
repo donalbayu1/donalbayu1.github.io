@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.kepala{
+  width: 100%;
+  background-color: #0009;
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  height:100px;
+  box-shadow: 0px 1px 10px #888888;
+  background: url(12.jpg);
+  color: #0009;
+}
+.kepala a:hover{
+  color: #f2bb85;
+  margin-right: 30px;
+}
+
+
+.kaki{
+  width: 100%;
+  background-color: #0009;
+  height: 140px;
+}
+
+.Judul{
+  background-color: none;
+  margin-top: -30px;
+  font-size: 50px;
+  position: absolute;
+  left: 50px;
+  padding-top: 50px;
+}
+.Judul a{
+  color:white;
+  text-decoration: none;
+}
+.menu1{
+  background-color: none;
+  font-size: 20px;
+  position: absolute;
+  right: 80px;
+  top: 40px;
+  z-index: 99;
+}
+.menu1 a{
+  margin-right: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.all{
+  display: block;
+  width: 100%;
+  min-height: 600px;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.logo2{
+  background-color: none;
+  margin-top: 23px;
+  font-size: 50px;
+  position: absolute;
+  left: 40px;
+  color: white;
+}
+
+.kaki{
+  width: 100%;
+  background-color: #0009;
+  position: absolute;
+  bottom: 15;
+  height: 125px;
+  margin-top: 5em;
+}
+.kontak{
+  width: 100%;
+  height:40px;
+  position: absolute;
+  bottom: 0;
+  background-color: #3c4245;
+}
+.kontak1{
+  position: relative;
+  color: white;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.info{
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  color:white;
+}
+.logo2{
+  background-color: none;
+  margin-top: 12px;
+  font-size: 50px;
+  position: absolute;
+  left: 40px;
+  color: white;
+}
+h1{
+  text-align: center;
+  font-weight: 300;
+}
+ 
+.content{
+    height: 600px;
+    width: auto;
+    color: #000000;
+    padding: 20px 20px 20px 200px;
+    box-sizing: border-box;
+    margin-top: 200px;
+}
+
+.foto{
+  display: inline-block;
+  margin-top: 0px;
+  float: left;
+}
+
+.foto input[type=button]{
+    width: auto;
+    color: white;
+    background-color: #42A5F5;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+/*    position: absolute;
+    left: 50px;*/
+}
+
+.foto img{
+  display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 3px;
+    border-radius: 50%;
+}
+/*.foto h1{
+   margin-top: 200px;
+   padding-left: 40px;
+ }
+*/
+.profil{
+  display: inline-block;
+  float: left;
+  margin: 10%;
+  margin-top: 0px;
+  width: 200px;
+  height: auto;
+  background-color: #F0F8FF;
+  border-radius: 10px;
+  color: #000000;
+  padding: 30px 30px 30px 50px;
+  box-sizing: border-box;
+}
+.hide {
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    width: 0.1;
+    height: 0.1;
+    opacity: 0;
+}
+
+label {
+    float: left;
+    height: 15.5px;
+    margin: 10px 0px 0px 0px;
+    width: auto;
+    color: white;
+    background-color: #42A5F5;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+label:hover{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #42A5F5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
