@@ -125,7 +125,6 @@ footer p {
   width: 100%;
   background-color: #0009;
   position: absolute;
-  bottom: 15;
   height: 125px;
   margin-top: 5em;
 }
@@ -150,7 +149,7 @@ footer p {
 }
 .logo2{
   background-color: none;
-  margin-top: 12px;
+  margin-top: 20px;
   font-size: 50px;
   position: absolute;
   left: 40px;
@@ -172,7 +171,7 @@ h1{
 .utama p{
   margin-left: 100px;
   font-size: 22px;
-  width:70%;
+  width:85%;
   color:black;
 }
 .tombol_login {
