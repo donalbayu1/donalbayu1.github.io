@@ -12,36 +12,19 @@
 	<div class="kotak_login">
 		<p class="tulisan_login">Silahkan login</p>
  
-		<form onsubmit="return Validate()" action="index2.html">
+		<form onsubmit="">
 			<label>Username</label>
-			<input type="text" id="username" required size="40" minlength="4" class="form_login" placeholder="Username atau email ..">
+			<input type="text" name="username" class="form_login" placeholder="Username atau email .." required="required">
  
 			<label>Password</label>
-			<input type="password" id="password" required minlength="8" maxlength="12" size="40" class="form_login" placeholder="Password ..">
+			<input type="password" name="password" class="form_login" placeholder="Password .." required="required">
             
 			<a href="index2.html" input type="submit" class="tombol_login" value="LOGIN">
             LOGIN</a>
 			<br/>
 			<br/>
 			<br/>
-			
-		<script type="text/javascript">
-		function Validate()
-		{
-			var username = document.getElementById("username")
-			var password = document.getElementById("password")
-			if (username.value.trim()=="" ||password.value.trim()=="") 
-			{
-				alert("Tidak boleh kosong");
-				return false;
-			}
-			else 
-			{
-				true;
-			}
-		}
-		</script>
-		<a href="daftar.html" input type="submit" class="tombol_daftar" value="DAFTAR">
+			<a href="daftar.html" input type="submit" class="tombol_daftar" value="DAFTAR">
             DAFTAR</a>
 			<br/>
 			<br/>
@@ -49,27 +32,8 @@
 				<a class="link" href="index.html">Kembali</a>
 			</center>
 		</form>
+		
 	</div>
-	
-	
-
-<script type="text/javascript">
-	window.onload = function (); {
-		var c = document.getElementById("kotak");
-		var ctx = c.getContext("2d");
-		x = 0
-		y = 0
-		animate();
-
-		function animate(){
-			ctx.clearRect(0, 0, c.width, c.height);
-			ctx.fillRect(x, 50, 200, 30);
-			x += 2;
-
-			setTimeout(animate, 50);
-		}
-	}
-</script>
 </body>
 </html>
 

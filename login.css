@@ -50,6 +50,9 @@ label{
 	padding: 13px 152px;
 	text-decoration: none;
 }
+.tombol_login:hover{
+	background: #25BB42;
+}
 .tombol_daftar {
 	background: #46de4b;
 	color: white;
@@ -60,9 +63,7 @@ label{
 	padding: 13px 146px;
 	text-decoration: none;
 }
-.tombol_login:hover{
-	background: #25BB42;
-}
+
 .tombol_daftar:hover{
 	background: #25BB42;
 }

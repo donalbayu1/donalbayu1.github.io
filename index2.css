@@ -8,6 +8,13 @@ body{
   background-size: 100%;
   background-attachment: fixed;
 }
+figure {
+    float: right;
+  width: 50px;
+  height: 50px;
+    padding: -60px;
+  margin: -10px;
+}
 
 .kepala{
   width: 100%;
@@ -29,7 +36,7 @@ body{
   width:100%;
   background-color: none ;
   position: relative;
-  padding-top: 100px;
+  padding-top: 600px;
   display: block;
 }
 .utama p{
@@ -201,7 +208,7 @@ footer p {
   margin-left: 20%;
 }
 .text-search {
-  margin-top: 50px;
+  margin-top: -150px;
   text-align: center;
   font-size: 45px;
   width:100%;
@@ -243,3 +250,58 @@ input[type=text] {
 }
 
 
+.utama a {
+  width: 1000px;
+  height: 100px;
+  font-size: 30px;
+  margin: auto;
+  line-height: 50px;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  border: solid 3px white;
+  text-align: center;
+  font-family: Open sans-serif;
+  text-transform: uppercase;
+  color: white;
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  z-index: 1;
+}
+
+.utama a:after,
+.utama a:before {
+    display: block;
+    background: #0009;
+    width: 0;
+    height: 100px;
+    content: "";
+    position: absolute;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+    z-index: -1;
+}
+
+.utama a:after {
+    bottom: 0px;
+    left: 0px;
+    width: 50%:
+}
+
+.utama a:before {
+    top: 0px;
+    right: 0px;
+}
+
+.utama a:hover:after,
+.utama a:hover:before{
+  width: 100%;
+}

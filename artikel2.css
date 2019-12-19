@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.kepala{
+  width: 100%;
+  background-color: #0009;
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  height:100px;
+  box-shadow: 0px 1px 10px #888888;
+  background: url(12.jpg);
+  color: #0009;
+}
+.kepala a:hover{
+  color: #f2bb85;
+  margin-right: 30px;
+}
+
+.utama{
+  width: 100%;
+  background-color: none ;
+  position: relative;
+  padding-top: 200px;
+  display: block;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.utama p{
+  text-align: center;
+  font-size: 50px;
+  width:100%;
+  color:white;
+  bottom-border:6px solid;
+}
+
+.kaki{
+  width: 100%;
+  background-color: #0009;
+  height: 140px;
+}
+
+.Judul{
+  background-color: none;
+  margin-top: -30px;
+  font-size: 50px;
+  position: absolute;
+  left: 50px;
+  padding-top: 50px;
+}
+.Judul a{
+  color:white;
+  text-decoration: none;
+}
+.menu1{
+  background-color: none;
+  font-size: 20px;
+  position: absolute;
+  right: 80px;
+  top: 40px;
+  z-index: 99;
+}
+.menu1 a{
+  margin-right: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.all{
+  display: block;
+  width: 100%;
+  min-height: 600px;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.logo2{
+  background-color: none;
+  margin-top: 23px;
+  font-size: 50px;
+  position: absolute;
+  left: 40px;
+  color: white;
+}
+
+
+
+.kaki{
+  width: 100%;
+  background-color: #0009;
+  position: absolute;
+  bottom: 15;
+  height: 125px;
+  margin-top: 5em;
+}
+.kontak{
+  width: 100%;
+  height:40px;
+  position: absolute;
+  bottom: 0;
+  background-color: #3c4245;
+}
+.kontak1{
+  position: relative;
+  color: white;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.info{
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  color:white;
+}
+.logo2{
+  background-color: none;
+  margin-top: 30px;
+  font-size: 50px;
+  position: absolute;
+  left: 40px;
+  color: white;
+}
+
+.tombol_login {
+  background: #d6291a;
+  color: white;
+  font-size: 15pt;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+  text-decoration: none;
+}
+
+.tombol_login:hover{
+  background: #25BB42;
+}
+.tombol_tambah{
+   background: white;
+  color: #46de4b;
+  font-size: 15pt;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+  text-decoration: none;
+}
+.tombol_tambah:hover{
+  background:#b4faa5;
+}
+
+nav ul li:hover .sub{display:block}
+nav ul .sub {
+    display:none;
+    position:absolute;
+    left:150px;
+    top:50px;
+    background-color:#0009;
+}
+body {
+  color: #666666;
+  background-color: #f9f8f6;
+  background-image: url("images/dark-wood.jpg");
+  background-position: center;
+  font-family: Georgia, Times, serif;
+  line-height: 1.4em;
+  margin: 0px;}
+}
+.wrapper {
+  width: 940px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+header {
+  height: 160px;
+  background-image: url(images/header.png);
+}
+h1 {
+  text-indent: -9999px;
+  width: 940px;
+  height: 130px;
+  margin: 0px;
+}
+nav, footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #aeaca8;
+  height: 30px;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;}
+nav li {
+  display: inline;
+  margin-right: 40px;}
+nav li a {
+  color: #ffffff;}
+nav li a:hover, nav li a.current {
+  color: #000000;}
+section.courses {
+  margin-left:50px;
+  width: 659px;
+  border-right: 1px solid #eeeeee;}
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;}
+hgroup {
+  margin-top: 40px;}
+figure {
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;}
+figcaption {
+  font-size: 90%;
+  text-align: left;}
+aside {
+  width: 230px;
+  float: left;
+  padding: 0px 0px 0px 20px;}
+aside section a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;}
+aside section a:hover {
+  color: #985d6a;
+  background-color: #efefef;}
+a {
+  color: #de6581;
+  text-decoration: none;}
+h1, h2, h3 {
+  font-weight: normal;}
+h2 {
+  margin: 10px 0px 5px 0px;
+  padding: 0px;}
+h3 {
+  margin: 0px 0px 10px 0px;
+  color: #de6581;}
+aside h2 {
+  padding: 30px 0px 10px 0px;
+  color: #de6581;}
+footer {
+  font-size: 80%;
+  padding: 7px 0px 0px 20px;}
+.isi{
+  padding-top: 100px;
+  width:80%;
+  margin-left: 2;
+}
