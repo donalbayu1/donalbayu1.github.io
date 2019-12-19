@@ -4,6 +4,7 @@
 	<title>Sing up - Bercocok Tani
     </title>
 	<link rel="stylesheet" type="text/css" href="login.css">
+	<script src="JS.js"></script>
 </head>
 <body>
  
@@ -12,24 +13,24 @@
 	<div class="kotak_login">
 		<p class="tulisan_login">Silahkan Daftar Disini</p>
  
-		<form>
+		<form onsubmit="validation()" method="get" action="artikel2.html" >
 			<label>Nama Lengkap</label>
-			<input type="text" name="nama lengkap" class="form_login" placeholder="Nama Lengkap .." required="required">
+			<input type="text" id="name" name="nama lengkap" class="form_login" placeholder="Nama Lengkap ..">
 
 			<label>Username</label>
-			<input type="text" name="username" class="form_login" placeholder="Username .." >
+			<input type="text" id="username"name="username" class="form_login" placeholder="Username ..">
 
 			<label>E-mail</label>
-			<input type="email" name="E-mail" class="form_login" placeholder="E-mail ..">
+			<input type="text" name="E-mail" id="email" class="form_login" placeholder="E-mail ..">
  
 			<label>Password</label>
-			<input type="password" name="password" class="form_login" placeholder="Password ..">
+			<input type="password" id="password" name="password" class="form_login" placeholder="Password ..">
 
 			<label>Re-Password</label>
-			<input type="password" name="re-password" class="form_login" placeholder="Re-Password ..">
+			<input type="password" id="re-password" name="re-password" class="form_login" placeholder="Re-Password ..">
             
             <label>No.Telepon</label>
-			<input type="number" name="nohp" class="form_login" placeholder="Nomer Telepon ..">
+			<input type="" name="nohp" id="nohp" class="form_login" placeholder="Nomer Telepon ..">
 
 			<a href="index2.html" input type="submit" class="tombol_daftar" value="DAFTAR">
             DAFTAR</a>

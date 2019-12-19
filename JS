@@ -1,0 +1,34 @@
+function validation(){    
+    var Namalengkap = document.getElementById("name").value;
+    var Username = document.getElementById("username").value;
+    var E-mail  = document.getElementById("email").value;
+    var password  = document.getElementById("password").value;
+    var Re-password  = document.getElementById("re-password").value;
+    var Nohp  = document.getElementById("nohp").value;
+
+
+    if(Namalengkap==""||Username==""||E-mail==""||password==""||Re-password==""||nohp==""){
+        alert("Inputan Jangan Sampai Kosong");
+        return false;
+    }
+    else{
+        alert("Berhasil Melakukan Pendaftaran");
+        true;
+    }
+
+}
+
+function validationLogin(){    
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    if(username==""||password==""){
+        alert("Inputan Jangan Sampai Kosong");
+        return false;
+    }
+    else{
+        alert("Berhasil Melakukan Login");
+        true;
+    }
+
+}

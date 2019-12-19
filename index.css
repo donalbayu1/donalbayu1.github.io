@@ -293,3 +293,24 @@ input[type=text] {
 .utama a:hover:before{
   width: 100%;
 }
+@media only screen and (max-width:800px) {
+
+@media only screen and (max-width:600px) {
+  .kepala{ 
+      width:50%;
+    }
+.search{
+  width: 50%;
+}
+.kaki{
+  width: 50%;
+}
+.text_Step{
+  width: 50%;
+}
+.cara-kerja{
+  width: 50%;
+}
+
+@media only screen and (max-width:300px) {
+
